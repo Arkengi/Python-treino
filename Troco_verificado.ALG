@@ -7,7 +7,7 @@ quantidade : inteiro
 
 Inicio
 
-Escreva("PreÁo unit·rio do produto: ")
+Escreva("Pre√ßo unit√°rio do produto: ")
 leia(preco)
 Escreva("Quantidade comprada: ")
 leia(quantidade)
@@ -17,7 +17,7 @@ leia(dinheiro)
 troco <- dinheiro-(preco*quantidade)
 diferenca <- -(troco)
 
- se (troco > 0 ) entao
+ se (troco>=0) entao
   Escreval("TROCO = ",troco:6:2)
  senao
   Escreval("DINHEIRO INSUFICIENTE. FALTAM ",diferenca:6:2," REAIS")

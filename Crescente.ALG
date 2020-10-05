@@ -6,16 +6,21 @@ X, Y : real
 
 Inicio
 
-enquanto X<>Y faça
- escreval("Digite dois numeros:")
- leia(X)
- leia(Y)
- escreval("Digite outros dois numeros:")
+escreval("Digite dois numeros:")
+leia(X)
+leia(Y)
+   
+enquanto X <> Y faca
+ se X < Y entao
+  escreval("CRESCENTE!")
+ senao
+  escreval("DECRESCENTE!")
+ fimse
+      
+escreval("Digite outros dois numeros:")
+leia(X)
+leia(Y)
 
-  se X > Y entao
-   escreval("DECRESCENTE!")
-  senão
-   escreval("CRESCENTE!")
-  fimse
+fimenquanto
 
 Fimalgoritmo
